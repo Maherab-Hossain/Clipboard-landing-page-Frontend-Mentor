@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* DEFAULT CSS STARTS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1150px;
+    margin: 0px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* DEFAULT CSS ENDS */
+
+/* HEADER STARTS */
+
+#headerBG{
+    background-image: url(/images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+header .container .headerCnt .headlogo img{
+  margin: 120px 500px 0px;
+}
+header .container .headerCnt .headtext{
+    text-align: center;
+    margin: 0px 250px;
+}
+header .container .headerCnt .headtext h2{
+    margin-top: 50px;
+    font-size: 40px;
+}
+header .container .headerCnt .headtext p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 30px;
+    font-size: 18px;
+}
+ .ios{
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: hsl(171, 66%, 44%);
+}
+ .mac{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+/* HEADER ENDS */
+
+/* TRACK STARTS */
+
+#track .tracktext{
+    text-align: center;
+    margin: 180px 230px;
+}
+#track .tracktext h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#track .tracktext p{
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* TRACK ENDS */
+
+/* QUICK SEARCH STARTS */
+
+
+#quick {
+    
+    position: relative;
+}
+#quick .computer{
+    margin-right: 0px;
+}
+#quick .quicktext{
+    width: 430px;
+    margin-top: 80px;
+    margin-right: 200px;
+    margin-left: 850px;
+    position: absolute;
+}
+#quick .quicktext div{
+    margin-bottom: 40px;
+}
+#quick .quicktext .quicktextA h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#quick .quicktext .quicktextA p{
+    line-height: 30px;
+    color: hsl(201, 11%, 66%);
+}
+
+/* QUICK SEARCH ENDS */
+
+/* ACCESS STARTS */
+#access{
+    margin-top: 120px;
+}
+#access .accesstext{
+    text-align: center;
+}
+#access .accesstext h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#access .accesstext p{
+    line-height: 25px;
+    color: hsl(201, 11%, 66%);
+    margin: 0px 250px;
+}
+#access .accessimg {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* ACCESS ENDS */
+
+/* WORK FLOW STARTS */
+
+#workflow h2{
+    text-align: center;
+    font-size: 35px;
+}
+#workflow p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#workflow .worklist{
+    line-height: 30px;
+    text-align: center;
+    width: calc(100% / 3);
+    padding: 0px 25px;
+    
+}
+#workflow .worklist h3{
+    margin-top: 20px;
+}
+
+/* WORK FLOW ENDS */
+
+/* PARTNERSHIP STARTS */
+
+#partnership .row img{
+    width: 150px;
+    height: 40px;
+    margin: 80px 40px;
+}
+
+/* PARTNERSHIP ENDS */
+
+/* CLIPBOARD STARTS */
+
+#clipboard{
+    margin-top: 40px;
+    text-align: center;
+}
+#clipboard h2{
+    font-size: 35px;
+}
+#clipboard  p{
+    margin: 20px 270px;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+#clipboard .clipios{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CLIPBOARD ENDS */
+
+/* WEB FOOTER STARTS */
+
+#foot{
+    background-color: hsl(201, 11%, 66%);
+    padding: 30px 15px;
+}
+#foot  .footCnt .row{
+    align-items: center;
+    justify-content: center;
+}
+#foot  .footCnt .row div{
+    margin: 10px 30px;
+    
+}
+#foot  .footCnt .row div{
+    margin-left: 80px;
+}
+#foot  .footCnt .row div h4 a{
+    color: hsl(210, 10%, 33%);
+    line-height: 30px;
+}
+#foot  .row .logo {
+    margin-right: 120px;
+    margin-left: 30px;
+}
+#foot  .row .logo img{
+    width: 75px;
+    height: 75px;
+}
+#foot  .footCnt .row .social img{
+    margin-left: 10px;
+}
+
+/* WEB FOOTER ENDS */
+
+/* FOOTER STARTS */
+
+footer {
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+
+}
+footer a{
+    color: hsl(223, 47%, 23%);
+}
+footer a:hover{
+    color:  hsl(224, 23%, 55%) ;
+}
+
+/* FOOTER ENDS */
